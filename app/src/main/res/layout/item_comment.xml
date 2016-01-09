@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/list_item"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/frameLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#e28078"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="飞雨如烟"
+            android:id="@+id/tv_user" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2014年2月的最后一天，佩兰在广东，他的合同自动延续到2018年世界杯预选赛结束（截止到中国队世界杯预选赛的最后一场比赛）"
+            android:id="@+id/tv_comment" />
+    </LinearLayout>
+
+</LinearLayout>
